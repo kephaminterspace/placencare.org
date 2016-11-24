@@ -1,0 +1,160 @@
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP1 START @ 03:34:57
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+VERSION:	1.1.20
+PHP:		5.6.20 | SAPI: apache2handler
+SERVER:		Apache/2.4.18 (Unix) OpenSSL/1.0.2g PHP/5.6.20 mod_perl/2.0.8-dev Perl/v5.16.3
+DOC ROOT:	/opt/lampp/htdocs/placencare.org
+DOC ROOT 755:	false
+LOG FILE 644:	true
+BUILD NAME:	20161119_thammyvienplacencaredichvu_582fb7e608ead3715161119022438
+REQUEST URL:	http://localhost/placencare.org/installer.php
+
+********************************************************************************
+ARCHIVE SETUP
+********************************************************************************
+NAME:	20161119_thammyvienplacencaredichvu_582fb7e608ead3715161119022438_archive.zip
+SIZE:	15.48MB
+ZIP:	Enabled (ZipArchive Support)
+EXTRACTING
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2131
+    [filename] => /opt/lampp/htdocs/placencare.org/20161119_thammyvienplacencaredichvu_582fb7e608ead3715161119022438_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+WEB SERVER CONFIGURATION FILE RESET:
+- Backup of .htaccess/web.config made to .orig
+- Reset of .htaccess/web.config files
+
+UPDATED FILES:
+- SQL FILE:  '/opt/lampp/htdocs/placencare.org/installer-data.sql'
+- WP-CONFIG: '/opt/lampp/htdocs/placencare.org/wp-config.php' (if present)
+
+ARCHIVE RUNTIME: 0.4366 sec.
+
+
+********************************************************************************
+DATABASE-ROUTINES
+********************************************************************************
+--------------------------------------
+SERVER ENVIROMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.5.5 -- Build Server: 10.0.27
+TIMEOUT:	5000
+MAXPACK:	1048576
+SQLMODE:	NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 2131
+    [filename] => /opt/lampp/htdocs/placencare.org/20161119_thammyvienplacencaredichvu_582fb7e608ead3715161119022438_archive.zip
+    [comment] => 
+)
+COMPLETE: true
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+ERRORS FOUND:	0
+DROP TABLE:	
+QUERIES RAN:	1271
+
+wp_cf7dbplugin_st: (163)
+wp_cf7dbplugin_submits: (822)
+wp_commentmeta: (0)
+wp_comments: (1)
+wp_duplicator_packages: (1)
+wp_links: (0)
+wp_options: (187)
+wp_postmeta: (41)
+wp_posts: (16)
+wp_term_relationships: (1)
+wp_term_taxonomy: (1)
+wp_termmeta: (0)
+wp_terms: (1)
+wp_usermeta: (19)
+wp_users: (1)
+Removed '48' cache/transient rows
+
+SECTION RUNTIME: 6.7401 sec.
+
+********************************************************************************
+STEP1 COMPLETE @ 03:35:04 - TOTAL RUNTIME: 7.1809 sec.
+********************************************************************************
+
+
+
+********************************************************************************
+DUPLICATOR-LITE INSTALL-LOG
+STEP2 START @ 03:35:10
+NOTICE: Do not post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	latin1
+CHARSET CLIENT:	 utf8 
+
+--------------------------------------
+SERIALIZER ENGINE
+[*] scan every column
+[~] scan only text columns
+[^] no searchable columns
+--------------------------------------
+wp_cf7dbplugin_st~ (163)
+wp_cf7dbplugin_submits~ (822)
+wp_commentmeta^ (0)
+wp_comments~ (1)
+wp_duplicator_packages^ (0)
+wp_links^ (0)
+wp_options~ (138)
+wp_postmeta~ (41)
+wp_posts~ (16)
+wp_term_relationships~ (1)
+wp_term_taxonomy~ (1)
+wp_termmeta^ (0)
+wp_terms~ (1)
+wp_usermeta~ (19)
+wp_users~ (1)
+--------------------------------------
+Search1:	'http://placencare.org' 
+Change1:	'http://localhost:8080/placencare.org' 
+Search2:	'/home/nangmuih/placencare.org' 
+Change2:	'/opt/lampp/htdocs/placencare.org' 
+Search3:	'http:\/\/placencare.org' 
+Change3:	'http:\/\/localhost:8080\/placencare.org' 
+Search4:	'\/home\/nangmuih\/placencare.org' 
+Change4:	'\/opt\/lampp\/htdocs\/placencare.org' 
+Search5:	'%2Fhome%2Fnangmuih%2Fplacencare.org%2F' 
+Change5:	'%2Fopt%2Flampp%2Fhtdocs%2Fplacencare.org%2F' 
+Search6:	'http%3A%2F%2Fplacencare.org' 
+Change6:	'http%3A%2F%2Flocalhost%3A8080%2Fplacencare.org' 
+Search7:	'\home\nangmuih\placencare.org' 
+Change7:	'/opt/lampp/htdocs/placencare.org' 
+SCANNED:	Tables:15 	|	 Rows:1204 	|	 Cells:6293 
+UPDATED:	Tables:1 	|	 Rows:4 	|	 Cells:4 
+ERRORS:		0 
+RUNTIME:	0.051300 sec
+
+********************************************************************************
+START FINAL CLEANUP: 03:35:10
+********************************************************************************
+UPDATE `wp_blogs` SET domain = 'localhost' WHERE domain = 'placencare.org'
+
+--------------------------------------
+NOTICES
+--------------------------------------
+No Notices Found
+
+
+WEB SERVER CONFIGURATION FILE BASIC SETUP:
+created basic .htaccess file.  If using IIS web.config this process will need to be done manually.
+********************************************************************************
+STEP 2 COMPLETE @ 03:35:10 - TOTAL RUNTIME: 0.2542 sec.
+********************************************************************************

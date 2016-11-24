@@ -1,0 +1,234 @@
+.page-giam-beo .text-duynhat {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.page-giam-beo .text-sgb31 {
+    font-size: 48px;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: right;
+}
+.page-giam-beo .section-uudiem p.description .t1 {
+    color: #ff9900;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.page-giam-beo .section-uudiem p.description {
+    font-weight: normal;
+    font-size: 15px;
+}
+ul.text-list li.item-2 .t1 {
+    font-weight: bold;
+    font-size: 26px;
+}
+.section-sukhacbiet .div-text p.description .t1,.section-sukhacbiet .div-text p.description .t2 {
+    text-transform: uppercase;
+    color: #ff9900;
+}
+.section-sukhacbiet .div-text p.description .t2 {
+    font-weight: bold;
+}
+.section-sukhacbiet .div-text p.description span.t3 {
+    color: #cc0000;
+    font-weight: bold;
+}
+
+.page-giam-beo .section-nguyenlyhoatdong .box-text-list .col-text:after {
+    background: none !important ;
+}
+
+.page-giam-beo .section-nguyenlyhoatdong .box-text-list .col-text {
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+}
+
+.page-giam-beo .section-nguyenlyhoatdong .box-text-list .row .col-text {
+    width: 328px;
+    float: left;
+    background-size: 320px 120px;
+}
+
+
+.page-giam-beo .section-nguyenlyhoatdong .main-title {
+    margin-bottom: 10px;
+    font-size: 35px;
+}
+.page-giam-beo .section-nguyenlyhoatdong .div-text .box-text-des .t1 {
+    text-transform: uppercase;
+    color: #ff9900;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.page-giam-beo .section-nguyenlyhoatdong .div-text .box-text-des {
+    font-size: 16px;
+    color: #000;
+}
+.section-intro-2 .div-text .box-head-description {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 15px;
+}
+.section-uudiem .div-img {
+    margin: 30px 0 0;
+    width: 46%;
+}
+.section-sukhacbiet ul.box-text-list li {
+    background: url(../images/trinam/bg-border.jpg) no-repeat;
+}
+.page-giam-beo .section-sukhacbiet ul.box-text-list li span.t2 {
+    font-size: 22px;
+    font-weight: bold;
+}
+.section.section-gioithieu .div-text {
+    float: left;
+}
+
+.box-may-trinam {
+    float: right;
+    width: 25%;
+    padding: 30px 0 0;
+}
+.section-gioithieu .div-img img {
+    height: 488px;
+}
+
+.section img {
+    max-width: 100%;
+}
+.page-giam-beo .text-sgb31 .t2 {
+    color: #ff9933;
+    font-weight: bold;
+}
+
+.page-giam-beo .section .div-img {
+    padding-right: 0;
+    text-align: left;
+    padding-top: 46px;
+}
+.page-giam-beo .section.section-uu-diem .div-img {
+    width: 35%;
+}
+.page-giam-beo .section.section-gioithieu .div-img {
+    width: 35%;
+    padding: 0 0;
+}
+
+.page-giam-beo .section.section-uudiem .div-text {
+    float: right;
+    width: 50%;
+}
+
+.page-giam-beo .section-uudiem p.text-uudiem {
+    font-size: 35px;
+}
+.page-giam-beo .section-sukhacbiet .div-img {
+    margin: 50px 0 0;
+    width: 418px;
+}
+
+.page-giam-beo .section-nguyenlyhoatdong .div-img {
+    padding: 50px 0 0;
+}
+.section-intro-2 .div-img {
+    width: 40%;
+}
+
+.section-intro-2 .box-text-head img {
+    height: 70px;
+}
+
+.section-intro-2 .div-text-inner {
+    padding-left: 30px;
+}
+
+.section-intro-2 .box-text-des {
+    font-size: 15px;
+}
+.page-giam-beo .section-sukhacbiet p.main-title {
+    margin: 20px 0;
+}
+.section-sukhacbiet .box-text-list .box {
+	border: 2px solid #ff9900;
+	width: 315px;
+	float: left;
+	height: 103px;
+	display: table;
+}
+.section-sukhacbiet .box-text-list .box.odd {
+    clear: both;
+}
+.section-sukhacbiet .box-text-list .box.even {
+    float: right;
+}
+
+.section-sukhacbiet .box-text-list .row-1 {
+}
+
+.title-center {
+    background: #FF9900;
+    width: 400px;
+    margin: 0 auto;
+    height: 65px;
+    border-radius: 8px;
+    text-align: center;
+    line-height: 65px;
+    color: #fff;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 27px;
+    margin: 24px auto 27px;
+}
+.section-sukhacbiet .box-text-list .box .box-inner {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.section-sukhacbiet .box-text-list {
+    background: url(../images/hifu/bg-title-skbvt.png) no-repeat center 105px;
+}
+.page-giam-beo .section-nguyenlyhoatdong .box-text-list .row .col-text p.des {
+    font-size: 12px;
+}
+.section-intro-2 .box-text-head p.tmv-name {
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 20px 0 0;
+    color: #ff9900;
+}
+.section-intro-2 .box-text-head p.tmv-textline {
+    font-weight: bold;
+    font-size: 16px;
+}
+.section-intro-2 .box-text-des li {
+    background: url(../images/hifu/ticky.png) no-repeat 0 0;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.section-intro-2 .box-text-des .des-1 span.t1 {
+    color: #ff9900;
+    font-weight: bold;
+    font-size: 18px;
+}
+.page-giam-beo .section-nguyenlyhoatdong .box-text-list .col-text p.title {
+    font-size: 14px;
+}
+div#fullpage .section .intro p.text-tantiennhat {
+    text-align: right;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+div#fullpage .section .intro p.text-tantiennhat span.t1 {
+    font-size: 35px;
+}
+p.text-hieuqua.l-2 {
+    font-size: 25px;
+}
