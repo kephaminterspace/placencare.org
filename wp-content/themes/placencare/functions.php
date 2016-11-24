@@ -151,8 +151,8 @@ function process_form( $cf7 ) {
 	$arr = array(
 		'properties' => array(
 			array(
-				'property' => 'email',
-				'value' => $t.'_'.$posted_data['your-mail']
+				'property' => 'tc_email',
+				'value' => $posted_data['your-mail']
 			),
 			array(
 				'property' => 'firstname',
@@ -180,7 +180,7 @@ function process_form( $cf7 ) {
 			),
 			array(
 				'property' => 'identifier',
-				'value' => $t
+				'value' => $t.'_'.$posted_data['your-mail']
 			),
 			array(
 				'property' => 'hs_lead_status',
